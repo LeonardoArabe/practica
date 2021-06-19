@@ -25,9 +25,15 @@ class _InicioState extends State<Inicio> {
        appBar: AppBar(
          title:Text("Leonardo App")
        ),
-       body: Center(
+       body:Column(
+         children:<Widget>[
+         Center(
          child: Text("Leonardo Arabe"),
-       ),
+         ),
+         Text("Programación Aplicada"),
+         Image.network("https://www.semana.com/resizer/mPhF3aC4sktvuoDa2zdIAGzf2F0=/arc-anglerfish-arc2-prod-semana/public/3IQKPMZPSZCFBD4GDU5HOKLIXE.jpg"),
+        ]
+       ) 
     );
   }
 }
