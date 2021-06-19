@@ -26,7 +26,7 @@ class _InicioState extends State<Inicio> {
          title:Text("Leonardo App")
        ),
        body: Center(
-         child
+         child: Text("Leonardo Arabe"),
        ),
     );
   }
